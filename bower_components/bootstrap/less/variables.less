@@ -854,3 +854,11 @@
 @dl-horizontal-offset:        @component-offset-horizontal;
 //** Horizontal line color.
 @hr-border:                   @gray-lighter;
+
+@border: #DCDBDB;
+
+.drop-shadow(@x: 0, @y: y, @blur: 5px, @spread: 0, @alpha: .16) {
+    -webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+    -moz-box-shadow:    @x @y @blur @spread rgba(0, 0, 0, @alpha);
+    box-shadow:         @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}

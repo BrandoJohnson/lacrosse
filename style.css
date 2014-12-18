@@ -3814,6 +3814,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
+  margin-top: 10.8em;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4333,6 +4334,18 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444444;
+}
+.main-container {
+  margin-top: 20em;
+}
+.box {
+  background-color: white;
+  border: 1px solid #dcdbdb;
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0 y 5px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 y 5px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 y 5px 0 rgba(0, 0, 0, 0.16);
 }
 .breadcrumb {
   padding: 8px 15px;
@@ -5781,6 +5794,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  margin-top: 12.1em;
 }
 .carousel-inner {
   position: relative;

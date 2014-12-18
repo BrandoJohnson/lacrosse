@@ -12,6 +12,7 @@
   position: relative;
   min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: @navbar-margin-bottom;
+  margin-top: 10.8em;
   border: 1px solid transparent;
 
   // Prevent floats from breaking the navbar
@@ -657,4 +658,17 @@
       }
     }
   }
+}
+
+.main-container {
+  margin-top: 20em;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid @border;
+  width: 100%;
+  height: auto;
+
+  .drop-shadow();
 }
